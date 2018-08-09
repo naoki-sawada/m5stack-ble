@@ -15,7 +15,7 @@ Example code for M5Stack Bluetooth low energy
 
 * [client](client/): BLE client for Python.
 * [m5stack-ble](m5stack-ble/): BLE peripheral for M5Stack. 
-* [web-client](web-client/): BLE client for Web blowser. (Comming soon...) 
+* [web-client](web-client/): BLE client for Web blowser.
 
 ## Contribute
 
