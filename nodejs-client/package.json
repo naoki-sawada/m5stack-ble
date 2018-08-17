@@ -1,0 +1,16 @@
+{
+  "name": "nodejs-client",
+  "version": "0.0.1",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "noble": "^1.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  }
+}
