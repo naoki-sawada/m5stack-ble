@@ -2,20 +2,15 @@
 
 ## Table of Contents
 
-* [Install](#install)
+- [Install](#install)
+- [Usage](#usage)
 
 ## Install
 
 ### M5Stack Arduino
 
-See this [documment](http://www.m5stack.com/assets/docs/) for Install the M5Stack Arduino.
+See this [documment](https://docs.m5stack.com) for Install the M5Stack Arduino.
 
+## Usage
 
-### ESP32_BLE_Arduino
-
-Install the `ESP32_BLE_Arduino` library to your Arduino libraries folder.
-
-```
-$ cd ~/Documents/Arduino/libraries
-$ git clone https://github.com/nkolban/ESP32_BLE_Arduino.git
-```
+Write [m5stack-ble.ino](m5stack-ble.ino) code to your M5Stack.
