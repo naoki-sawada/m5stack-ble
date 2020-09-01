@@ -18,13 +18,11 @@ Bluetooth low energy client for python.
 ## Install
 
 ```
-$ git clone https://github.com/adafruit/Adafruit_Python_BluefruitLE
-$ cd Adafruit_Python_BluefruitLE
-$ sudo python setup.py install
+pip install bleak
 ```
 
 ## Usage
 
 ```
-$ python main.py
+python3 main.py
 ```
