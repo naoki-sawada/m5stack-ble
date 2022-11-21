@@ -43,8 +43,13 @@ async function onButtonClick() {
       console.log('Waiting 60 seconds to receive data from the device...')
       await sleep(60 * 1000);
     }
-  } catch(error) {
-    console.log('Argh! ' + error);
+  } finally {
+    if (device) {
+      if (device.gatt.connected) {
+        device.gatt.disconnect();
+        console.log('disconnect');
+      }
+    }
   }
   
   if (device) {
