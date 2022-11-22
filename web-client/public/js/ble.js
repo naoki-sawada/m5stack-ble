@@ -51,13 +51,6 @@ async function onButtonClick() {
       }
     }
   }
-  
-  if (device) {
-    if (device.gatt.connected) {
-      device.gatt.disconnect();
-      console.log('disconnect');
-    }
-  }
 }
 
 async function sleep(ms) {
