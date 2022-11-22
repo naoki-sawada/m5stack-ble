@@ -44,11 +44,9 @@ async function onButtonClick() {
       await sleep(60 * 1000);
     }
   } finally {
-    if (device) {
-      if (device.gatt.connected) {
-        device.gatt.disconnect();
-        console.log('disconnect');
-      }
+    if (device && device.gatt.connected) {
+      device.gatt.disconnect();
+      console.log('disconnect');
     }
   }
 }
