@@ -19,8 +19,8 @@ Example code for M5Stack Bluetooth low energy
 
 ## Contribute
 
-Open an issue or submit PRs.
+Open an [issue](https://github.com/naoki-sawada/m5stack-ble/issues/new/choose) or submit [PRs](https://github.com/naoki-sawada/m5stack-ble/pulls).
 
 ## License
 
-MIT.
+[MIT](LICENSE).
